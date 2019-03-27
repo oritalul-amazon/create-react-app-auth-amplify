@@ -1,0 +1,19 @@
+{
+    "mygirls": {
+        "awscloudformation": {
+            "AuthRoleName": "authcra-20190327234852-authRole",
+            "UnauthRoleArn": "arn:aws:iam::821963645480:role/authcra-20190327234852-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::821963645480:role/authcra-20190327234852-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "authcra-20190327234852-deployment",
+            "UnauthRoleName": "authcra-20190327234852-unauthRole",
+            "StackName": "authcra-20190327234852",
+            "StackId": "arn:aws:cloudformation:eu-west-1:821963645480:stack/authcra-20190327234852/e71acf50-50d9-11e9-a290-06bacc45a76c"
+        },
+        "categories": {
+            "auth": {
+                "cognitocf0c6096": {}
+            }
+        }
+    }
+}

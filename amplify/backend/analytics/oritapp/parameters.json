@@ -1,0 +1,20 @@
+{
+    "appName": "oritapp",
+    "roleName": "pinpointLambdaRolea51e2529",
+    "cloudWatchPolicyName": "cloudWatchPolicya51e2529",
+    "pinpointPolicyName": "pinpointPolicya51e2529",
+    "authPolicyName": "pinpoint_amplify_a51e2529",
+    "unauthPolicyName": "pinpoint_amplify_a51e2529",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
